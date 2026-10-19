@@ -1,0 +1,61 @@
+{
+ "set": "heldout",
+ "robot_days": 300,
+ "truth_billed": 37153.47,
+ "results": {
+  "device": {
+   "abs_err": 7761.56169827826,
+   "net_err": -7160.068823307319,
+   "over_days": 19,
+   "teleop_err": 1834.6466486564475,
+   "unknown_min": 0.0,
+   "site_margin_err": {
+    "site1": -1160.46,
+    "site2": -607.81,
+    "site3": -1796.75,
+    "site4": -776.12,
+    "site5": -788.67,
+    "site6": -1202.59
+   }
+  },
+  "recv": {
+   "abs_err": 2677.738346319553,
+   "net_err": 1484.2496999631855,
+   "over_days": 134,
+   "teleop_err": 2647.0613643422616,
+   "unknown_min": 0.0,
+   "site_margin_err": {
+    "site1": 145.65,
+    "site2": 523.88,
+    "site3": -102.9,
+    "site4": 408.63,
+    "site5": 8.42,
+    "site6": 243.47
+   }
+  },
+  "ledger": {
+   "abs_err": 1637.8293997082785,
+   "net_err": -1637.7995850298455,
+   "over_days": 0,
+   "teleop_err": 257.8359520310027,
+   "unknown_min": 11155.027250308129,
+   "site_margin_err": {
+    "site1": -202.26,
+    "site2": -153.69,
+    "site3": -361.23,
+    "site4": -194.87,
+    "site5": -290.65,
+    "site6": -254.65
+   }
+  }
+ },
+ "site_truth_margin": {
+  "site1": 5579.97,
+  "site2": 4346.04,
+  "site3": 8238.31,
+  "site4": 4271.01,
+  "site5": 4126.35,
+  "site6": 5668.42
+ },
+ "ledger_overbilled": []
+}
