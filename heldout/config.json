@@ -1,0 +1,6 @@
+{
+  "note": "Frozen before the first held-out run. Dev used sim.fleet(11, 4, 5, 7) with sim.DEV. Held-out: a harsher floor never run during development - longer warehouse dead zones (up to 70 min, so the 40-event buffer overflows and data is lost), more of them, more reboots, larger drift, RTC resets to new offsets, more duplicate retries.",
+  "seed": 2027, "sites": 6, "robots": 5, "days": 10,
+  "cfg": {"offline_rate": 0.45, "offline_max": 70, "buffer": 40, "dup": 0.06, "reboot_on_fault": 0.8, "drift": 6e-4,
+          "reset_offsets": [-1440, -330, 90, 600], "fault_p": 0.05}
+}
